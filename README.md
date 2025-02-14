@@ -1,10 +1,15 @@
-# EclipseCON 2022 Talk: "_34 keys is all you need: an ergonomic keyboard journey_"
+# CESA Share Ergo Keebs talk
+
+### Credits note
+
+These slides are originally form [Mattia Dal Ben](https://github.com/mattdibi). All the credits go to him. I modified the slides
+slightly to suit my needs.
 
 ### Description
 
 In the latest years the custom mechanical keyboard scene has blown up significantly, reaching mainstream status among (not only) software developers. Nevertheless there's an overlooked niche of this hobby that greatly benefits from the open source ecosystem and the online community: ergonomic mechanical keyboard.
 
-In this talk I'll walk you through the deep end of the custom ergonomic mechanical keyboard rabbit hole and explain why 34 keys is all you need (really!) and what are the benefits of such a keyboard.
+In this talk I'll walk you through the deep end of the custom ergonomic mechanical keyboard rabbit hole and explain why 36 keys is all you need (really!) and what are the benefits of such a keyboard.
 
 ### Detail
 
@@ -14,7 +19,7 @@ In this talk I'll focus on various aspect of modern keyboards and their outdated
 - Software: How the open source keyboard firmwares changed how we use the keyboard. I'll talk about advanced firmware features like layers, mod-taps, caps word and combos.
 - Layout: Functional layout and how the QWERTY layout was designed to slow you down (really!). I'll talk about modern alternatives like Dvorak, Colemak-DHm and Miryoku which leverages the more advanced features of modern firmwares.
 
-Finally I'll put everything together and talk about my current daily driver: a 34-keys bluetooth split keyboard powered by the open source ZMK firmware and the Miryoku layout.
+Finally I'll put everything together and talk about my current daily driver: a 36-key corne keyboard that is powered by QMK.
 
 ## Viewing the presentation
 

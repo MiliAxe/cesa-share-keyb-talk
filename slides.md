@@ -1,45 +1,24 @@
 ---
 theme: uncover
 class:
-- invert
+  - invert
 paginate: true
-size: 16:9
-author: Mattia Dal Ben
+size: 4:3
+author: Milad Zarei
 transition: fade
 ---
 
-![bg cover opacity:.7](media/uwldcrj8vca91.jpg)
+![bg cover opacity:.7](media/corneblack.webp)
 
-## <!--fit--> 34 keys is all you need 
+## <!--fit--> 36 keys is all you need
+
 _An ergonomic mechanical keyboard journey_
 
-<!-- _footer: Author: Mattia Dal Ben -->
 <!-- _paginate: false -->
 
 <!--
 Hi everyone,
 I'm here today to try and convince you that 34 is totally reasonable amount of keys to have on a keyboard and that I'm not a totally deranged individual.
--->
-
----
-
-####  Who am I?
-
-- Master degree in EE
-- Work as SWE @ Eurotech
-- Mechanical keyboard enthusiast and maker
-- Designed the _Redox Keyboard_ and the _Yampad_
-
-![bg right](media/yampad.jpg)
-
-<!--
-Let's start by presenting myself
-* I'm Mattia Dal Ben
-* I'm from Italy
-* I have a master degree in Electronic Engineering
-* I work as a Software Engineer at Eurotech
-* I'm a keyboard addict
-* I designed a few projects that are quite popular in the keyboard community: the Redox keyboard and the Yampad
 -->
 
 ---
@@ -69,10 +48,10 @@ BTW, the keyboards in the bottom picture are all mine... I warned you I am a key
 
 ### Talk outline
 
-1) _Hardware_
-2) _Software_
-3) _Layout_
-4) _Miryoku_
+1. _Hardware_
+2. _Software_
+3. _Layout_
+4. _Miryoku_
 
 <!--
 1. _Hardware_: We'll start by talking about how we can improve the ergonimics of a 100 years old design from the hardware perspective (spoiler alert: we'll remove a lot of keys in the process)
@@ -96,8 +75,7 @@ ul {
 - Top: Corona Model 4 1920 ca.
 - Bottom: Macbook Air 2020 ca.
 
-### Why are we still stuck with this :shit:?
-
+#### Why are we still stuck with this :shit:?
 
 ![bg right 80%](./media/hardware/20220812_094917.jpg)
 
@@ -284,7 +262,6 @@ Let's talk about *how* we can do this.
 
 > **ZMK** (Zephyr™ Mechanical Keyboard) Firmware is an open source (MIT) keyboard firmware built on the Zephyr™ Project Real Time Operating System (RTOS). ZMK's goal is to provide a modern, wireless, and powerful firmware free of licensing issues.
 
-
 <!--
 Keyboard firmware is the software running on the microcontrollers, responsible for scanning the matrix state and reporting which keys are being pressed to the Operating System. Sounds pretty straightforward right? Wrong.
 
@@ -319,14 +296,13 @@ There are much more useful behaviours though that we'll discuss now. You should 
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 </style>
 
 # Layers
 
-> ... this amounts to a function key that allows for different keys, much like what you would see on a laptop or tablet keyboard. 
-
+> ... this amounts to a function key that allows for different keys, much like what you would see on a laptop or tablet keyboard.
 
 - QMK https://docs.qmk.fm/#/feature_layers
 - ZMK https://zmk.dev/docs/behaviors/layers
@@ -345,7 +321,7 @@ It's a space saving measure.
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 </style>
 
@@ -368,7 +344,7 @@ The hold-tap key will output the 'hold' behavior if it's held for a while (in th
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 </style>
 
@@ -395,11 +371,11 @@ We can now put them anywhere we want, without the need for dedicated keys...
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 </style>
 
-![w:1100](./media/firmware/home_mods.png)
+![w:800](./media/firmware/home_mods.png)
 
 # Home row mods
 
@@ -421,7 +397,7 @@ This also have a big ergonomic advantage: you don't need to place your fingers a
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
 }
 </style>
 
@@ -444,7 +420,11 @@ This creates a lot more room for placing this kind of keys on the keyboard: you 
 
 <style scoped>
 ul {
-  font-size: 0.6em;
+  font-size: 0.4em;
+}
+
+blockquote {
+  font-size: 0.5em;
 }
 </style>
 
@@ -596,65 +576,13 @@ We have now covered all the feature and techniques that can improve our keyboard
 
 # Base layer
 
-![w:900](./media/miryoku/0_base/full_104.png)
-
-![w:700](./media/miryoku/0_base/miryoku-base-layer.drawio.png)
-
-<!--
-Let's play a little game here: let's try and fit all the keys on our outdated and ugly full-size keyboard onto this super-cute ergonomic split 34-keys keyboard here.
-
-As you can see the hardware ticks all the boxes: it's split, it has a thumb cluster, columnar stagger and the right amount of keys. We'll need all the software features we talked before to make everything fit.
--->
-
----
-
-# Base layer
-
-![w:900](./media/miryoku/1_base/104_full.png)
-
-![w:700](./media/miryoku/1_base/miryoku-base-layer.png)
-
-<!--
-Let's start with the basics: simple characters are where we expect them to be.
--->
-
----
-
-# Base layer
-
-![w:900](./media/miryoku/2_base/104_full.png)
-
-![w:700](./media/miryoku/2_base/miryoku-base-layer.png)
-
-<!--
-We talked about the fact that we should use our thumbs more, let's assign them the most used keys: space, backspace, return, and tab.
-
-Esc and Delete are accessible through combos: by pressing the two left thumb keys we'll get the Escape key, by doing the same on the right we get the Delete key.
-
-Furthermore we'll need layers to fit everything into this keyboard, thumbs will be responsible for all the layer switching thanks to layer-tap we just talked about.
--->
-
----
-
-# Base layer
-
-![w:900](./media/miryoku/3_base/full_104.png)
-
-![w:700](./media/miryoku/3_base/miryoku-base-layer.png)
-
-<!--
-To cover the mods we'll simply use the home-row mods we talked about in the previous slides
-
-As you can see we've covered a large part of the keys from the full-size keyboard and we didn't even use a layer yet.
--->
+![w:800](./media/miryoku/0_base/miryoku-kle-base.png)
 
 ---
 
 # Num layer
 
-![w:900](./media/miryoku/0_num/full_104.png)
-
-![w:700](./media/miryoku/0_num/miryoku-base-layer.png)
+![w:800](./media/miryoku/0_num/miryoku-kle-num.png)
 
 <!--
 Let's start using our layers then:
@@ -668,9 +596,7 @@ Symbols are the same as reported in the num row, which means that you'll find th
 
 # Fun layer
 
-![w:900](./media/miryoku/0_fun/full_104.png)
-
-![w:700](./media/miryoku/0_fun/miryoku-base-layer.png)
+![w:800](./media/miryoku/0_fun/miryoku-kle-sym.png)
 
 <!--
 Following the same principle, let's put the function keys in the same spots as the number layer in a layer on their own.
@@ -684,15 +610,25 @@ We already know where most of our keys are located.
 
 # Nav layer
 
-![w:900](./media/miryoku/0_nav/full_104.png)
-
-![w:700](./media/miryoku/0_nav/miryoku-base-layer.png)
+![w:800](./media/miryoku/0_nav/miryoku-kle-nav.png)
 
 <!--
 On the right hand let's put our nav cluster and the arrow keys. If you prefer the usual inverted T layout for the arrows there's an option for that.
 
 And just like that: all the keys from a normal keyboard are covered. But we can do much much more.
 -->
+
+---
+
+# Media layer
+
+![w:800](./media/miryoku/0_media/miryoku-kle-media.png)
+
+---
+
+# Additional features
+
+![w:800](./media/miryoku/0_additional/miryoku-kle-features.png)
 
 ---
 
@@ -711,7 +647,7 @@ Docs: https://github.com/manna-harbour/miryoku
 <!--
 And here we are, this is the principle behind the Miryoky layout by Manna Harbour. One of the most common for minimal keyboards.
 
-As you can see it packs quite a lot more features that what I covered: 
+As you can see it packs quite a lot more features that what I covered:
 - it has a media layer for controlling volume, media and bluetooth settings.
 - a mouse emulation layer
 - some copy paste shortucts for one handed use
@@ -742,12 +678,18 @@ Finally... this is my current daily driver keyboard: a Ferris Sweep Half Swept r
 
 # Personal experience
 
-* It improved my typing habits
-* The "limitations" of this keyboard made me discover new *improved* typing habits
-* Shortcuts are *so much more comfortable to type*
-* Improved symbols access
-* I've yet to encounter a key combination that I cannot type
-* It is **FUN**
+<style scoped>
+ul {
+  font-size: 0.6em;
+}
+</style>
+
+- It improved my typing habits
+- The "limitations" of this keyboard made me discover new _improved_ typing habits
+- Shortcuts are _so much more comfortable to type_
+- Improved symbols access
+- I've yet to encounter a key combination that I cannot type
+- It is **FUN**
 
 <!--
 Here's why:
@@ -763,9 +705,9 @@ Here's why:
 
 # Talk Takeaways
 
-* Minimal (sub 40 keys) ergonomic keyboards are *viable*, if not *preferable* to normal keyboards.
-* The techniques developed for this keyboard to work might come useful for all keyboard users.
-* Give them a try!
+- Minimal (sub 40 keys) ergonomic keyboards are _viable_, if not _preferable_ to normal keyboards.
+- The techniques developed for this keyboard to work might come useful for all keyboard users.
+- Give them a try!
 
 <!--
 So finally I hope I convinced you that:
@@ -812,5 +754,5 @@ Reddit post: https://www.reddit.com/r/ErgoMechKeyboards/comments/wy4e3a/my_ergon
 - _Taobao Supreme pic_: [/u/dantambok](https://www.reddit.com/r/MechanicalKeyboards/comments/8v0a9a/best_photo_i_have_taken_so_far/)
 - _Moonlander pic_: hardwarecanucks.com
 - _Corne pic_: [/u/molwams](https://imgur.com/gallery/0XtplrD)
-- _Skeletyl pic_: [@urza\_cc](https://twitter.com/urza_cc/status/1491380688892805123?s=20&t=K2xHF-xH5f7xICDeaPuEWg)
+- _Skeletyl pic_: [@urza_cc](https://twitter.com/urza_cc/status/1491380688892805123?s=20&t=K2xHF-xH5f7xICDeaPuEWg)
 - _Miryoku keymap_: [Manna Harbour](https://github.com/manna-harbour)
