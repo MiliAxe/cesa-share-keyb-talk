@@ -2,7 +2,7 @@
 
 ### Credits note
 
-These slides are originally form [Mattia Dal Ben](https://github.com/mattdibi). All the credits go to him. I modified the slides
+These slides are originally from [Mattia Dal Ben](https://github.com/mattdibi). All the credits go to him. I modified the slides
 slightly to suit my needs.
 
 ### Description
@@ -23,7 +23,7 @@ Finally I'll put everything together and talk about my current daily driver: a 3
 
 ## Viewing the presentation
 
-A pre-built version of the presentation is available in the [`gh-pages` branch](https://github.com/mattdibi/eclipsecon-keyboard-talk/tree/gh-pages), this version is built by a custom Github workflow from the `master` branch. Once this repo will go public the presentation will be available at [https://mattdibi.github.io/eclipsecon-keyboard-talk/](https://mattdibi.github.io/eclipsecon-keyboard-talk/).
+A pre-built version of the presentation is available in the [`gh-pages` branch](https://github.com/MiliAxe/cesa-share-keyb-talk/tree/gh-pages), this version is built by a custom Github workflow from the `master` branch. Once this repo will go public the presentation will be available at [https://miliaxe.github.io/cesa-share-keyb-talk/](https://miliaxe.github.io/cesa-share-keyb-talk/).
 
 ## Building the presentation
 
@@ -32,11 +32,11 @@ These slides are using [Marp](https://marp.app/) Markdown Presentation Ecosystem
 For building the slides in this repository using the [official Docker image](https://hub.docker.com/r/marpteam/marp-cli/) use the following commands:
 
 ```bash
-git clone https://github.com/mattdibi/eclipsecon-keyboard-talk.git
+git clone https://github.com/MiliAxe/cesa-share-keyb-talk.git
 ```
 
 ```bash
-cd path/to/eclipsecon-keyboard-talk
+cd path/to/cesa-share-keyb-talk
 ```
 
 Convert slide deck into HTML:
