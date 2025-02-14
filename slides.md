@@ -6,6 +6,7 @@ paginate: true
 size: 4:3
 author: Milad Zarei
 transition: fade
+marp: true
 ---
 
 ![bg cover opacity:.7](media/corneblack.webp)
@@ -20,6 +21,20 @@ _An ergonomic mechanical keyboard journey_
 Hi everyone,
 I'm here today to try and convince you that 34 is totally reasonable amount of keys to have on a keyboard and that I'm not a totally deranged individual.
 -->
+
+---
+
+### Who am I?
+
+<style scoped>
+ul {
+  font-size: 0.7em;
+}
+</style>
+
+- A fellow Computer Engineering student just like you.
+- I like anti-culture stuff (hence, this talk)
+- Keyboard enthusiast
 
 ---
 
@@ -40,9 +55,38 @@ So... what are we going to talk about?
 * We're gonna talk about small from factor (which means less than 40 keys), ergonomic, open-source, mechanical keyboards
 * We're gonna talk about what firmware/software features make them a viable option (Features that can be applied even to normal keyboards)
 * ... and, above all, **why** should you want to use them.
-
-BTW, the keyboards in the bottom picture are all mine... I warned you I am a keyboard addict.
 -->
+
+---
+
+# What are Mechanical Keyboards?
+Mechanical keyboards use individual spring-loaded switches under each key to provide tactile & auditory feedback. They offer a distinct typing experience compared to rubber dome keyboards.
+
+---
+
+![bg](https://www.durgod.com/wp-content/uploads/2024/04/kailh-switch-tester3-1680753457520_1200x.webp)
+
+---
+
+# Why?
+Key benefits include:
+• Enhanced durability and longevity  
+• Customizable layouts and keycaps  
+• Superior tactile feedback for precision typing  
+• A vibrant community for mods and improvements
+
+
+---
+
+![bg](https://preview.redd.it/purple-is-cool-v0-yss56i1s9yie1.jpg?width=1080&crop=smart&auto=webp&s=8ddba43128905770160bf2e2a329c2e405865c42)
+
+---
+
+![bg](https://preview.redd.it/lovely-burger-v0-msnzkhso21je1.jpg?width=1080&crop=smart&auto=webp&s=ea65759f5503a75c98b467233f87a7d5e3b86d5c)
+
+---
+
+![bg](https://preview.redd.it/following-up-on-the-keeb-girlies-post-from-yesterday-v0-1hguuizoxlee1.jpg?width=2048&format=pjpg&auto=webp&s=c23b129ecbd98d15b25ff04218df3ebb444f194c)
 
 ---
 
@@ -59,7 +103,6 @@ BTW, the keyboards in the bottom picture are all mine... I warned you I am a key
 3. _Layout_: I'll also briefly cover the most common alternative layouts and why would you want to use them
 4. _Miryoku_: Finally we'll put everything together with the Miryoku layout, one of the most popular layout for small form factor ergonomic keyboards
 -->
-
 ---
 
 # <!-- fit --> 1. Hardware
@@ -259,6 +302,10 @@ Let's talk about *how* we can do this.
 ## Keyboard Firmwares
 
 > **QMK** (Quantum Mechanical Keyboard) Firmware is an open source (GPL-2.0) community centered around developing computer input devices. The community encompasses all sorts of input devices, such as keyboards, mice, and MIDI devices."
+
+---
+
+## Keyboard Firmwares
 
 > **ZMK** (Zephyr™ Mechanical Keyboard) Firmware is an open source (MIT) keyboard firmware built on the Zephyr™ Project Real Time Operating System (RTOS). ZMK's goal is to provide a modern, wireless, and powerful firmware free of licensing issues.
 
@@ -664,9 +711,9 @@ Everything is open source obviously...
 
 ---
 
-<!-- _footer: Pic: Ferris Sweep Half Swept in custom 3D printed case w/ Nice!NanosV2 running ZMK -->
+<!-- _footer: Pic: A standard corne keyboard with RP2040s -->
 
-![bg cover](./media/ferris2.jpg)
+![bg cover](./media/IMG_4823.jpeg)
 
 <!--
 Finally... this is my current daily driver keyboard: a Ferris Sweep Half Swept running Miryoku ZMK... and I like it a lot
@@ -674,7 +721,7 @@ Finally... this is my current daily driver keyboard: a Ferris Sweep Half Swept r
 
 ---
 
-![bg cover opacity blur](./media/ferris2.jpg)
+![bg cover opacity blur](./media/IMG_4823.jpeg)
 
 # Personal experience
 
@@ -756,3 +803,4 @@ Reddit post: https://www.reddit.com/r/ErgoMechKeyboards/comments/wy4e3a/my_ergon
 - _Corne pic_: [/u/molwams](https://imgur.com/gallery/0XtplrD)
 - _Skeletyl pic_: [@urza_cc](https://twitter.com/urza_cc/status/1491380688892805123?s=20&t=K2xHF-xH5f7xICDeaPuEWg)
 - _Miryoku keymap_: [Manna Harbour](https://github.com/manna-harbour)
+- _slides_: [Mattia Dal Ben](https://github.com/mattdibi)
